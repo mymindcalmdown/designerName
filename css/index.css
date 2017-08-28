@@ -122,21 +122,23 @@
 	border: 1px solid #CFCFCF;
 	padding: 0.2rem;
 }
-.warp_border img,#float_ball img{
+.warp_border img{
 	width: 100%;
 	height: 100%;
 }
 
 #float_ball{
-	border: 1px solid #CFCFCF;
-    border-radius: 4px; 
-	width: 12%;
-	height: 9%;
+	width: 2rem;
+	height: 1rem;
 	position: absolute;
 	left: 0;
 	z-index: 22;
    
 
+}
+#float_ball img{
+	width: 1rem;
+	height: 1rem;
 }
 
 
