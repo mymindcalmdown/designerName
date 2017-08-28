@@ -129,12 +129,12 @@
 }
 
 #float_ball{
-	width: 16%;
-	height: 10%;
+	width: 19%;
+	height: 9%;
 	border: 1px solid #CFCFCF;
 	position: absolute;
 	left: 0;
-	z-index: 999;
+	z-index: 22;
 
 
 }
