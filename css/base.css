@@ -1,0 +1,144 @@
+/*基础样式*/
+body{
+	font-family: "微软雅黑";
+	margin: 0;
+	padding: 0;
+}
+body *{
+	-webkit-text-size-adjust:100%;/*禁止用户调整大小*/
+	-webkit-user-select:none;  /*禁止用户选中文字*/
+}
+
+a,button,input{
+	-webkit-tab-highlight-color:rgba(0,0,0,0); /*取消初始化样式*/
+}
+button,input{
+	-webkit-appearance:none;  /*取消初始化样式*/
+	border-radius: 0;
+}
+
+a{
+	
+	color: #BEBEBE;
+}
+a:hover{
+	text-decoration: underline;
+	color: #8B8989;
+}
+input{
+	outline: none;
+	vertical-align: middle;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+img{
+	vertical-align: middle;
+}
+h3,h4,p{
+   margin: 0;
+}
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*媒体查询
+@media screen and (min-width:360px) and (max-width:374px) and (orientation:portrait) {
+    html { font-size: 703%; }
+}
+@media screen and (min-width:375px) and (max-width:383px) and (orientation:portrait) {
+    html { font-size: 732.4%; }
+}
+@media screen and (min-width:384px) and (max-width:399px) and (orientation:portrait) {
+    html { font-size: 750%; }
+}
+@media screen and (min-width:400px) and (max-width:413px) and (orientation:portrait) {
+    html { font-size: 781.25%; }
+}
+@media screen and (min-width:414px) and (max-width:431px) and (orientation:portrait){
+    html { font-size: 808.6%; }
+}
+@media screen and (min-width:432px) and (max-width:479px) and (orientation:portrait){
+    html { font-size: 843.75%; }
+}
+*/
+
+#navline{
+	width: 100%;
+	height: 4rem;
+	font-family: "微软雅黑";
+	font-size: 0.1rem;
+	font-weight: normal;
+	color: #BEBEBE;
+	position: relative;
+	letter-spacing: 0.01rem;
+}
+
+.nav_title{
+   position: absolute;
+   top: 30%;
+   left: 1rem;
+
+}
+
+#navline ul{
+	position: absolute;
+	top: 30%;
+    letter-spacing: 0.01rem;
+    right: 0.2rem;
+
+}
+#navline ul li{
+    float: left;
+    margin-right: 0.8rem;
+}
+
+#navline ul li a{
+	font-size: 0.01rem;
+}
+#navline ul li a:hover{
+	text-decoration: underline;
+	color: #8B8989;
+}
+/*  水平线
+#navline hr{
+	margin: 0;
+	padding: 0;
+	color:#E6E6FA; 
+	font-style: normal;
+	font-weight: normal;
+	width: 40%;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+*/
+#footer{
+	position: relative;
+	width: 100%;
+	height: 6rem;
+}
+.foot_line{
+	font-size: 0.008rem;
+	color: #CFCFCF;
+	top:70%;
+	left: 1rem;
+	position: absolute;
+	letter-spacing: 0.03rem;
+}
+.hr{
+	position: absolute;
+	width: 50%;
+	top:-1rem;
+	border-bottom: 1px solid #CFCFCF;
+}

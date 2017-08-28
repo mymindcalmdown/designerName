@@ -1,0 +1,148 @@
+/*首页*/
+
+/*         */
+
+#headBg{
+	width: 100%;
+	height: 9rem;
+	position: relative;
+	margin-top: 0.2rem;
+}
+.he_img{
+	position: absolute;
+	width: 90%;
+	height: 5rem;
+	right: 0;
+}
+.he_img img{
+	width: 90%;
+	position: absolute;
+	right: 0;
+	z-index: 2;
+}
+
+.he_bg{
+	position: absolute;
+	width: 74%;
+	height: 2rem;
+	background: #FFC1C1;
+	right: 0;
+	top:67%;
+	opacity: .2;
+	z-index: 1;
+}
+#tiTle{
+	position: relative;
+	width: 100%;
+	height: 6rem;
+	font-family: '微软雅黑';
+	font-size: 0.35rem;
+
+}
+.tiT{
+	position: absolute;
+	top: 20%;
+	left: 24%;
+	
+}
+.tiT h1{
+	color: #4F4F4F;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 0.01rem;
+}
+.tiT hr{
+	font-style:normal;
+	margin-top: 1.5rem;
+}
+
+#contents{
+	position: relative;
+	width: 100%;
+	height: 5rem;
+	font-size: 0.01rem; 
+	color: #828282;
+	font-family: "微软雅黑";
+	letter-spacing: 0.1rem;
+}
+.content_txt{
+	position: absolute;
+	width: 67%;
+    left: 24%;
+}
+#heads{
+	width: 100%;
+	height: 2rem;
+	position: relative;
+}
+.heads_t{
+	position: absolute;
+	width: 35%;
+	height: 50%;
+	background: #00BFFF;
+	 left: 1rem;
+	 top:30%;
+    opacity: .7;
+}
+.heads_t span{
+	position: absolute;
+	font-size: 0.7rem;
+	color: white;
+	text-align: center;
+    letter-spacing: 0.1rem;
+} 
+#container_wrap{
+	position: relative;
+	width: 100%;
+	height: 4rem;
+	margin-top: 1.4rem;
+	z-index: 1;
+}
+.Name{
+	position: absolute;
+	width: 44%;
+	height: 18%;
+	background: #6959CD;
+	top: 0.2rem;
+	left: 0.2rem;
+	opacity: .9;
+	font-family: "微软雅黑";
+	font-size: 0.5rem;
+	color: white;
+    vertical-align: middle;
+    line-height: 1.6;
+}
+.warp_border{
+	position: relative;
+	float: left;
+	width: 40%;
+	height: 100%;
+	border-radius: 4px;
+	margin-left:1rem;
+	border: 1px solid #CFCFCF;
+	padding: 0.2rem;
+}
+.warp_border img,#float_ball img{
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+
+#float_ball{
+	width: 9%;
+	height: 7%;
+	border: 1px solid #CFCFCF;
+	position: absolute;
+	left: 0;
+	z-index: 999;
+
+
+}
+#float_ball{
+	width: 10%;
+	font-size: 0.001rem;
+	color:#CFCFCF; 
+    border-radius: 4px;
+}
+
+
