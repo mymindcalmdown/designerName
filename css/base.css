@@ -19,7 +19,7 @@ button,input{
 
 a{
 	
-	color: #BEBEBE;
+	color: #5c6166;
 }
 a:hover{
 	text-decoration: underline;
@@ -79,7 +79,7 @@ h3,h4,p{
 	font-family: "微软雅黑";
 	font-size: 0.1rem;
 	font-weight: normal;
-	color: #BEBEBE;
+	color: #5c6166;
 	position: relative;
 	letter-spacing: 0.01rem;
 }
@@ -130,7 +130,7 @@ h3,h4,p{
 }
 .foot_line{
 	font-size: 0.008rem;
-	color: #CFCFCF;
+	color: #5c6166;
 	top:70%;
 	left: 1rem;
 	position: absolute;
