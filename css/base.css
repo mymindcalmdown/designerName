@@ -104,7 +104,7 @@ h3,h4,p{
 }
 
 #navline ul li a{
-	font-size: 0.01rem;
+	font-size: 0.1rem;
 }
 #navline ul li a:hover{
 	text-decoration: underline;
@@ -129,7 +129,7 @@ h3,h4,p{
 	height: 6rem;
 }
 .foot_line{
-	font-size: 0.008rem;
+	font-size: 0.1rem;
 	color: #5c6166;
 	top:70%;
 	left: 1rem;
